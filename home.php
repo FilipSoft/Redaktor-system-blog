@@ -20,16 +20,16 @@
      <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item active">
-        <a class="nav-link" href="#">Domů <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="?page=home">Domů <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-        <a class="nav-link" href="#">Novinky <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="?page=news">Novinky <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-        <a class="nav-link" href="#">Programování <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="?page=programing">Programování <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-        <a class="nav-link" href="#">O nás <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="?page=about">O nás <span class="sr-only">(current)</span></a>
         </li>
       </ul>
      </div>
