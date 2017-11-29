@@ -14,7 +14,7 @@ SELECT meno FROM us WHERE meno=? AND pass=SHA1(?) ',$_POST['meno'], $_POST['pass
 	else echo('zlé používateľské meno alebo heslo');
 } 
 ?>
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
       <head>
       <title></title>
