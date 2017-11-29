@@ -17,16 +17,29 @@ SELECT meno FROM us WHERE meno=? AND pass=SHA1(?) ',$_POST['meno'], $_POST['pass
 <!DOCTYPE html>
 <html>
       <head>
-      <title></title>
-      <meta charset="utf-8"/>
-      <link rel="stylesheet" href="Style.css" type="text/css"/>
+    <title>Login | Blog</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="log.css">
       </head>
-      <body background="back.png">
-<form method="POST">
-<p>používateľské meno:<input type="text" name="meno"><br/>
-	heslo:<input type="password" name="pass"><br/></p>
-<input type="submit" value="login">
-</form> 
-		  <p>Ak ešte nemáš <a href="reg.php">Zaregistruj sa teraz! </a></p>
+      <body>
+          <div class="container text-center mt-3">
+        <form method="POST">
+                <table>
+                    <tr>
+                    <td> Uživatelské jméno: </td>
+                    <td> <input type="text" name="meno"><br/></td>
+                </tr>
+                <tr>
+                    <td> Heslo: </td>
+                    <td> <input type="password" name="pass"><br/></td>
+                </tr>
+                    <tr>
+                    <td> <input type="submit" value="Přihlaš se"> <td>
+                    </tr>
+                </table>
+    </form> 
+		  <p>Nemáš ještě účet? <a href="reg.php">Zaregistruj se ihned! </a></p>
+          </div>
       </body>
 </html> 

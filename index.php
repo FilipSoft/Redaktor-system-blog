@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
-    <title><?php $_GET['page']?></title>
+    <title>Domů | Blog</title>
 </head> 
 <body>
     <!-- START navbar -->
@@ -31,7 +31,7 @@
         <a class="nav-link" href="?page=about">O nás <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-        <a class="nav-link" href="log.php">Administrácia <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="log.php">Administrace <span class="sr-only">(current)</span></a>
         </li>
       </ul>
      </div>
