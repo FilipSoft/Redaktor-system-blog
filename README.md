@@ -9,4 +9,4 @@ getting Fatal error: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied
 From Db::connect("sql.endora.cz:3314","code","code","code1234");
 To Db::connect('127.0.0.1', 'us', 'root', '');
 Wheen u will uploading it change it back 
-Ps.: in php admin create db with name us and parameters like on the scree shoot (FilipSoft)
+Ps.: in php admin create db with name us and parameters like on the scree shoot in asses (FilipSoft)
