@@ -2,4 +2,4 @@
 # 28.11 17:12 Runned domain http://warriors-of-code.mablog.eu (FilipSoft)
 # 28.11 18:58 uploaded login file and register file (FilipSoft)
 # 29.11 19:05 added admin.php (FilipSoft)
-# Working on design for reg.php and log.php (Popcorn)
+# 29.11 22:53 Made design for reg.php and log.php (Popcorn)
