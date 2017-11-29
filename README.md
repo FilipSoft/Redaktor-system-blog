@@ -10,3 +10,4 @@ From Db::connect("sql.endora.cz:3314","code","code","code1234");
 To Db::connect('127.0.0.1', 'us', 'root', '');
 Wheen u will uploading it change it back 
 Ps.: in php admin create db with name us and parameters like on the scree shoot in asses (FilipSoft)
+# 29.11 19:05 added admin.php (FilipSoft)
