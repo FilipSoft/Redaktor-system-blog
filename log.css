@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;    
+}
+
+a:visited {
+    color: black;    
+}
+
+body {
+    background: url('assets/login.jpg');
+    font-family: 'Oxygen', sans-serif;
+}
+
+table {
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+p {
+ font-size: 17px;
+ text-align: center;
+}

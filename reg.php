@@ -34,20 +34,41 @@ if($_POST){
 <!DOCTYPE html>
 <html>
       <head>
-      <title></title>
+      <title>Registrace | Blog</title>
       <meta charset="utf-8"/>
-      <link rel="stylesheet" href="Style.css" type="text/css"/>
+      <link rel="stylesheet" href="log.css" type="text/css"/>
       </head>
-      <body background="back.png">
-		  <p><?= $s ?></p> 
-<form method="POST">
-<p>meno/nick: <input type="text" name="meno"><br/>
-	heslo: <input type="password" name="pass"><br/>
-	heslo(znovu): <input type="password" name="pass2">  <br/>
-    aktuálny rok (anti-spam): <input type="number" name="rok" ></p>
-<input type="submit" value="Register" >
-</form> 
-		  <p>Máš už účet <a href="log.php">Prihlás sa</a></p> 
-      </body>
+      <body>
+       <div class="container text-center mt-3">
+        <form method="POST">
+              <table>
+                <tr>
+                    <td> Uživatelské jméno: </td>
+                    <td> <input type="text" name="meno"><br/></td>
+                </tr>
+                
+                <tr>
+                    <td> Heslo: </td>
+                    <td> <input type="password" name="pass"><br/></td>
+                </tr>
+                
+                <tr>
+                    <td> Heslo (znovu): </td>
+                    <td> <input type="password" name="pass2"><br/></td>
+                </tr>
+                
+                <tr>
+                    <td> Aktuální rok (anti-spam): </td>
+                    <td> <input type="number" name="rok"><br/></td>
+                </tr>
+                
+                <tr>    
+                    <td> <input type="submit" value="Registrovat" > <td>
+                </tr>
+              </table>
+        </form> 
+	    <p>Máš už účet? <a href="log.php">Přihlaš se! </a></p>
+       </div>
+     </body>
 </html> 
 	
