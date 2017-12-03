@@ -3,3 +3,4 @@
 # 28.11 18:58 uploaded login file and register file (FilipSoft)
 # 29.11 19:05 added admin.php (FilipSoft)
 # 29.11 22:53 Made design for reg.php and log.php (Popcorn) thank!
+# 3.12 23:17 Added about.php (Popcorn)
