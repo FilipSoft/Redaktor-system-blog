@@ -34,7 +34,7 @@ $(function() {
         		if (data.responseText !== null && data.responseText !== "MailNoService") {
         			$(formMessages).html("<div class=\"alert alert-danger\" role=\"alert\">" + data.responseText + "</div>");
         		} else if (data.responseText === "MailNoService") {
-        			$(formMessages).html("<div class=\"alert alert-info\" role=\"alert\">Your mail would have been sent, if there was a mail service</div>");
+        			$(formMessages).html("<div class=\"alert alert-info\" role=\"alert\">Váš mail by byl odeslán, pokud by zde byl kontaktní email</div>");
         		} else {
         			$(formMessages).html("<div class=\"alert alert-danger\" role=\"alert\">Nepodařilo se odeslat váš email!</div>");
         		}
