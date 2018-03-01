@@ -6,3 +6,4 @@
 # 3.12 23:17 Added about.php (Popcorn)
 # 4.12 14:56 Addet script Galeria.php + HOW TO USE IS IN DESCRIPTION (FilipSoft) 
 # 11.12 19:00 Some graphical changes (Popcorn)
+# // will we work on it or not?
